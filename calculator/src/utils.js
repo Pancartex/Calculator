@@ -1,4 +1,4 @@
-// deconstruct the state passed in equal and returns the correct calculation
+// deconstruct the state passed in compute and returns the correct calculation
 export function compute({ previousOperand, currentOperand, operator }) {
   if (isNaN(previousOperand) || isNaN(currentOperand)) return "";
   if (operator === "+")
